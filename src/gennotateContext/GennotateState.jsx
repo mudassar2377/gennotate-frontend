@@ -97,7 +97,7 @@ const GennotateState = (props) =>{
       });
     };
     const generateImages = (obj, startTime) => {
-      fetch(`${host}/api/generateImages/`, {
+      fetch(`${host}/generateImages/`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

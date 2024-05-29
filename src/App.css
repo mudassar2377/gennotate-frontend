@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lateef:wght@400;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+    display: none !important;
+}
+
+input[type="password"]::-webkit-contacts-auto-fill-button,
+input[type="password"]::-webkit-credentials-auto-fill-button {
+    visibility: hidden !important;
+    pointer-events: none !important;
+    display: none !important;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 100px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #154d4f;
+  border-radius: 100px; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3a8e91; 
+}
+
+@keyframes animation1 {
+  0% { left: 0vw; }
+  12.5% { left: 0vw; }
+  25% { left: 0vw; }
+  37.5% { left: -45vw; }
+  50% { left: -45vw; }
+  62.5% { left: -45vw; }
+  75% { left: -45vw; }
+  87.5% { left: -90vw; }
+  100% { left: -90vw; }
+}
+
+@keyframes animation2 {
+  0% { left: 0%; }
+  12.5% { left: 0%; }
+  37.5% { left: 32%; }
+  62.5% { left: 32%; }
+  87.5% { left: 32%; }
+  100% { left: 32%; }
+}
+
+@keyframes animation3 {
+  0% { left: 32%; }
+  12.5% { left: 32%; }
+  37.5% { left: 32%; }
+  62.5% { left: 76%; }
+  87.5% { left: 76%; }
+  100% { left: 76%; }
+}
+
+@keyframes animation4 {
+  0% { left: 32%; }
+  12.5% { left: 32%; }
+  37.5% { left: 32%; }
+  62.5% { left: 32%; }
+  87.5% { left: 88%; }
+  100% { left: 88%; }
+}
+
+@keyframes animation5 {
+  0% { left: 0%; }
+  10% { left: 0%; }
+  30% { left: 38%; }
+  50% { left: 38%; }
+  70% { left: 38%; }
+  90% { left: 38%; }
+  100% { left: 38%; }
+}
+
+@keyframes animation6 {
+  0% { left: 12%; }
+  10% { left: 12%; }
+  30% { left: 12%; }
+  50% { left: 12%; }
+  70% { left: 38%; }
+  90% { left: 38%; }
+  100% { left: 38%; }
+}
+
+@keyframes animation7 {
+  0% { left: 38%; }
+  10% { left: 38%; }
+  30% { left: 38%; }
+  50% { left: 76%; }
+  70% { left: 76%; }
+  90% { left: 76%; }
+  100% { left: 76%; }
+}
+
+@keyframes animation8 {
+  0% { left: 38%; }
+  10% { left: 38%; }
+  30% { left: 38%; }
+  50% { left: 38%; }
+  70% { left: 38%; }
+  90% { left: 88%; }
+  100% { left: 88%; }
+}
+
+@keyframes animation9 {
+  0% { left: 0%; }
+  50% { left: 38%; }
+  100% { left: 38%; }
+}
+
+@keyframes animation10 {
+  0% { left: 38%; }
+  50% { left: 38%; }
+  100% { left: 88%; }
+}
+
+/* @keyframes animation11 {
+  0% { left: 0%; }
+  8.33% { left: 0%; }
+  16.66% { left: -100%; }
+  25% { left: -100%; } 
+  33.33% { left: -100%; }
+  41.66% { left: -200%; }
+  50% { left: -200%; }
+  58.33% { left: -200%; }
+  66.66% { left: -300%; }
+  75% { left: -300%; }
+  83.33% { left: -300%; }
+  91.66% { left: -400%; }
+  100% { left: -400%; }
+} */
+
+@keyframes animation11 {
+  0% { left: 0%; }
+  8.33% { left: 0%; }
+  10.33% { left: -100%; }
+  25% { left: -100%; } 
+  33.33% { left: -100%; }
+  35.33% { left: -200%; }
+  50% { left: -200%; }
+  58.33% { left: -200%; }
+  60.33% { left: -300%; }
+  75% { left: -300%; }
+  83.33% { left: -300%; }
+  85.33% { left: -400%; }
+  100% { left: -400%; }
+}

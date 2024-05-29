@@ -97,7 +97,7 @@ const GennotateState = (props) =>{
       });
     };
     const generateImages = (obj, startTime) => {
-      fetch('http://127.0.0.1:8000/generateImages/', {
+      fetch(`${host}/api/generateImages/`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -127,7 +127,7 @@ const GennotateState = (props) =>{
       });
     };
     const getGeneratedImages = (obj) => {
-      fetch(`http://127.0.0.1:8000/getGeneratedImages/`, {
+      fetch(`${host}/getGeneratedImages/`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -150,7 +150,7 @@ const GennotateState = (props) =>{
       });
     };
     const getSegmentedImages = (obj) => {
-      fetch(`http://127.0.0.1:8000/getSegmentedImages/`, {
+      fetch(`${host}/getSegmentedImages/`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -177,7 +177,7 @@ const GennotateState = (props) =>{
       });
     };
     const segmentImages = (obj) => {
-      fetch(`http://127.0.0.1:8000/segmentedImages/`, {
+      fetch(`${host}/segmentedImages/`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -202,7 +202,7 @@ const GennotateState = (props) =>{
     const cleanImages = (userId) => {
       const formData = new FormData();
       formData.append('file', file);
-      fetch(`http://127.0.0.1:8000/cleanImages/?userId=${userId}`, {
+      fetch(`${host}/cleanImages/?userId=${userId}`, {
         method: 'POST',
         body: formData,
       })
